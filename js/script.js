@@ -21,8 +21,21 @@ $(document).ready(function() {
 		
 		//animated scroll_arrow
 		$(".img_scroll").hover(function () {
-			$(this).toggleClass("animated infinite bounce");
+			$(this).toggleClass("animated infinite bounce blockanimation");
 		});
+
+		function timerAnimation(){
+			if (!$(".img_scroll").hasClass('blockanimation')) {
+				$(".img_scroll").toggleClass("animated infinite bounce");
+				setTimeout(function(){
+					$(".img_scroll").toggleClass("animated infinite bounce");
+				}, 1000);
+			};
+		};
+
+		setInterval(function(){
+			timerAnimation();
+		}, 5000);
 		
 		//Wow Animation DISABLE FOR ANIMATION MOBILE/TABLET
 		wow = new WOW(

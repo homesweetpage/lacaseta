@@ -114,6 +114,32 @@ padding: 8px 12px;
 	margin-top: 30px;
 }
 
+#map {
+	border: 1px solid;
+	height: 293px;
+}
+
+#button {
+	padding: 50px 0px !important;
+}
+
+#button a {
+	width: 100%;
+	padding: 17px 19px !important;
+	border-radius: 0px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+}
+
+#location h3{
+	margin-top: 0px;
+}
+
+#location .fa{
+	margin-right: 10px;
+	font-size: 1.2em;
+}
+
 /*  Owl */
 #owl-demo .item{
 	margin: 4px;

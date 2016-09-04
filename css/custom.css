@@ -346,6 +346,22 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 
 /* Responsive Stuff */
 
+@media (min-width: 992px) {
+	#contact .form-group.col-md-6.colleft{
+		padding-left: 0px !important;
+	}
+	#contact .form-group.col-md-6.colright{
+		padding-right: 0px !important;
+	}
+}
+
+@media (max-width: 991px) {
+	#contact .form-group.col-md-6{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+
 
 @media (max-width: 979px) {
 	.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {

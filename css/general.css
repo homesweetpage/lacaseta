@@ -1065,31 +1065,36 @@ color: #ECEBEB;
 
 
 /* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
-		.intro-header {
-			height: 100%;
-			padding-top: 50px;
-			padding-bottom: 50px;
-			color: #f8f8f8;
-		    background-image: none; 
-			background-size: cover;
-			text-align: center;
-			background-color: #34495e;
-		}
-		
-		h1, .h1 {
-			font-size: 50px;
-		}
-		
-		h3, .h3 {
-			font-size: 20px;
-		}
-		#gallery1{display:none}
-		
-		.button_down {display:none}
-		
-		
+@media only screen and (max-width: 767px) {
+	.intro-header {
+		height: 100%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: #f8f8f8; 
+		background-size: cover;
+		text-align: center;
 	}
+	
+	h1, .h1 {
+		font-size: 50px;
+	}
+	
+	h3, .h3 {
+		font-size: 20px;
+	}
+	#gallery1{display:none}
+	
+	.button_down {display:none}
+
+	.row-installation {
+		margin-top: 0px !important;
+	}
+	
+	.wrap_title h2{
+		font-size: 36px !important;
+	}
+	
+}
 
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -1175,7 +1180,10 @@ color: #ECEBEB;
 	ul.banner-social-buttons {
 		float: left;
 		margin-top: 15px;
-	}	
+	}
+	.row-installation {
+		padding: 0 30px !important;
+	}
 }
 
 @media (max-width: 767px) {

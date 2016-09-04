@@ -104,6 +104,16 @@ padding: 8px 12px;
 
 .wrap_title{margin-bottom: 30px;}
 
+.wrap_title h2{
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+.row-installation {
+	padding: 0 150px;
+	margin-top: 30px;
+}
+
 /*  Owl */
 #owl-demo .item{
 	margin: 4px;

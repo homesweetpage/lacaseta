@@ -316,7 +316,7 @@
 					<div class="form-group col-md-6 colright">
 						<label for="InputEmail">Teléfono</label>
 						<div class="input-group">
-							<input type="phone" class="form-control" id="InputPhone" name="InputPhonel" placeholder="Ej: (0223)437-5964" required  >
+							<input type="phone" class="form-control" id="InputPhone" name="InputPhone" placeholder="Ej: (0223)437-5964" required  >
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
@@ -337,7 +337,7 @@
 						</div>
 					</div>
 
-					<input type="submit" name="submit" id="submit" value="Enviar" class="btn wow tada btn-embossed btn-primary pull-right">
+					<input onclick="sendMail(); return false" type="submit" name="submit" id="submit" value="Enviar" class="btn wow tada btn-embossed btn-primary pull-right">
 				</div>
 			</form>
 
@@ -361,6 +361,7 @@
     <script src="js/bootstrap.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/script.js"></script>
+  <script src="js/consulta.js"></script>
 	<!-- StikyMenu -->
 	<script src="js/stickUp.min.js"></script>
 	<script type="text/javascript">

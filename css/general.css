@@ -14,9 +14,9 @@ body, html {
 	overflow-x:hidden;
 }
 
-::-moz-selection{background:#1abc9c;color:white}
+::-moz-selection{background:#33ADDC;color:white}
 
-::selection{background:#1abc9c;color:white}
+::selection{background:#33ADDC;color:white}
 
 .abcen{position: absolute;bottom: 8%;}
 
@@ -150,14 +150,14 @@ filter: alpha(opacity=95) !important;
 }
 
 .mybutton_cyano{
-	border: 1px solid #4A90BE;
+	border: 1px solid #33ADDC;
 	color: #fff;
-	background-color:#4A90BE;
+	background-color:#33ADDC;
 }
 
 .mybutton_cyano:hover{
-	border: 1px solid #4A90BE;
-	color: #4A90BE !important;
+	border: 1px solid #33ADDC;
+	color: #33ADDC !important;
 	background: rgba(204, 204, 204, 0);
 }
 
@@ -175,11 +175,11 @@ width: 50px;
 	font-size: 30px;
 	text-decoration: none;
 	list-style-type: none;
-	color: #1abc9c;
+	color: #33ADDC;
 }
 
 .social > a:hover {
-	color: #1abc9c;
+	color: #33ADDC;
 }
 
 .box-icon {
@@ -198,12 +198,12 @@ width: 50px;
 }
 
 .box-icon:hover {
-	background-color: #1abc9c;
+	background-color: #33ADDC;
 	color: #fff;
 }
 
 .owl-theme .owl-controls .owl-page span {
-background: #1abc9c !important;
+background: #33ADDC !important;
 }
 
 /* Nav */
@@ -521,7 +521,7 @@ color: #ECEBEB;
 
 .content-style-form-4 form button:focus,
 .content-style-form-4 form button:hover {
-	background: #1abc9c;
+	background: #33ADDC;
 }
 
 .js .content-style-form-4 p {
@@ -903,7 +903,7 @@ color: #ECEBEB;
 
 .morph-button-inflow-1 .morph-content .morph-clone {
 	color: #FFFFFF;
-	background: #1abc9c;
+	background: #33ADDC;
 }
 
 .morph-button-inflow-2 {

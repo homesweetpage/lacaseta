@@ -166,6 +166,25 @@ padding: 8px 12px;
 	height: auto;
 }
 /* Footer */
+footer .powered, footer .copyr{
+	margin: 12px 0;
+}
+
+footer .powered{
+	text-align: right;
+}
+
+footer .powered a:focus{
+	color: #33ADDC;
+}
+
+footer .powered a:hover{
+	color: #33ADDC;
+}
+
+footer .powered a:active{
+	color: #33ADDC;
+}
 
 #footer{
 	padding: 20px 0px;
@@ -378,6 +397,16 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 	#contact .form-group.col-md-6{
 		padding-left: 0px !important;
 		padding-right: 0px !important;
+	}
+
+	footer .powered{
+		margin: 4px 0 12px !important;
+		text-align: center !important;
+	}
+
+	footer .copyr{
+		margin: 12px 0 4px !important;
+		text-align: center !important;
 	}
 }
 

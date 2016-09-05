@@ -361,12 +361,21 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 	#contact .form-group.col-md-6.colright{
 		padding-right: 0px !important;
 	}
+	.h1_home img{
+		width: 20%;
+	}
 }
 
 @media (max-width: 991px) {
 	#contact .form-group.col-md-6{
 		padding-left: 0px !important;
 		padding-right: 0px !important;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+	.h1_home img{
+		width: 30%;
 	}
 }
 
@@ -433,6 +442,9 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 
 
 @media (max-width: 480px) {
+	.h1_home img{
+		width: 50% !important;
+	}
 	.navbar-fixed-top, .navbar-fixed-bottom {
 	position: static;
 	}
@@ -450,6 +462,14 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 NO MORE TABLES!! ;)
 */
 @media (max-width: 767px) {
+
+	.navbar-header a{
+		margin-left: 15px;
+	}
+
+	.h1_home img{
+		width: 40%;
+	}
 
 	#location .redes {
 		text-align: center;

@@ -131,13 +131,21 @@ padding: 8px 12px;
 	text-transform: uppercase;
 }
 
+#button a button {
+	display: none;
+}
+
 #location h3{
 	margin-top: 0px;
 }
 
-#location .fa{
+#location .redes {
+	margin-top: 20px;
+}
+
+#location a .fa{
 	margin-right: 10px;
-	font-size: 1.2em;
+	font-size: 2em;
 }
 
 /*  Owl */
@@ -442,6 +450,15 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 NO MORE TABLES!! ;)
 */
 @media (max-width: 767px) {
+
+	#location .redes {
+		text-align: center;
+	}
+
+	#location h3 {
+		font-size: 36px;
+		text-transform: uppercase;
+	}
 
 	.hp-table table, .hp-table thead, .hp-table .hp-table tbody, .hp-table th, .hp-table td, .hp-table tr { 
 		display: block; 

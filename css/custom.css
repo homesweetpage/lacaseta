@@ -148,6 +148,14 @@ padding: 8px 12px;
 	font-size: 2em;
 }
 
+#location li a:hover{
+	color: #33ADDC;
+}
+
+#location li a:focus{
+	color: #33ADDC;
+}
+
 /*  Owl */
 #owl-demo .item{
 	margin: 4px;

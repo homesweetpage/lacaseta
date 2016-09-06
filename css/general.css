@@ -45,10 +45,22 @@ body, html {
   background-repeat: no-repeat;
 }
 
+#consulta-success {
+	width: 100%;
+	background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+	cursor: default;
+}
+
+#consulta-success:hover {
+  color: #3c763d;
+}
+
 @media (min-width: 992px) and (max-width: 1120px) {
 	.oferta h3{
 		font-size: 25px;
-	}	
+	}
 }
 
 @media (min-width: 881px) and (max-width: 991px) {

@@ -16,7 +16,8 @@ $("#submit").click(function(event) {
         url: "email.php?InputName="+nombre+"&InputPhone="+tel+"&InputEmail="+mail+"&InputMessage="+consulta,
         data: data,
         success: function(){
-            document.getElementById('form').reset()
+            document.getElementById('formularioConsulta').reset();
+            $('#consulta-success').toggleClass("hidden");
         }
     });
 });

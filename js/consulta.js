@@ -16,7 +16,7 @@ $("#submit").click(function(event) {
         url: "email.php?InputName="+nombre+"&InputPhone="+tel+"&InputEmail="+mail+"&InputMessage="+consulta,
         data: data,
         success: function(){
-            alert('success')
+            document.getElementById('form').reset()
         }
     });
 });

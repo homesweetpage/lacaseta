@@ -65,7 +65,7 @@ $(document).ready(function() {
 		});
 
 		//SmothScroll
-		$('a[href*=#]').click(function() {
+		$('.js-smooth-scroll').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 			&& location.hostname == this.hostname) {
 					var $target = $(this.hash);

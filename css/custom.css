@@ -483,9 +483,6 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 	.h1_home img{
 		width: 50% !important;
 	}
-	.navbar-fixed-top, .navbar-fixed-bottom {
-	position: static;
-	}
 	#header {
 		text-align: center;
 		padding: 20px 0px 20px;

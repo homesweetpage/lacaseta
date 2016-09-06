@@ -1,12 +1,28 @@
 <?php
 
 if($_POST){
-    $name = $_POST['InputName'];
-    $phone = $_POST['InputPhone'];
-    $email = $_POST['InputEmail'];
-    $message = $_POST['InputMessage'];
-//send email
-    mail("tomasgispert@gmail.com", "Consulta de" .$email, "Nombre:" .$name ."Telefono:" .$phone ."Consulta:" .$message);
+    $name = $_REQUEST['InputName'];
+    $phone = $_REQUEST['InputPhone'];
+    $email = $_REQUEST['InputEmail'];
+    $message = $_REQUEST['InputMessage'];
+
+    $to = "tomasgispert@gmail.com";
+
+    $mensaje = 
+		"Nombre: " .$name ."\r\n"
+		."Telefono: " .$phone ."\r\n"
+		."Email: " .$email ."\r\n"
+		."Mensaje: " .$message
+		;
+
+	$subject = "La Caseta Playa - Consulta de: " .$email;
+
+	$header = "From: " .$email ."\r\n"; 
+	$header.= "MIME-Version: 1.0\r\n"; 
+	$header.= "Content-Type: text/plain; charset=utf-8\r\n"; 
+	$header.= "X-Priority: 1\r\n"; 
+
+    mail($to,$subject,$mensaje,$header);
 }
 
 ?>

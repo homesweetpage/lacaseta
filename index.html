@@ -56,28 +56,10 @@
 		<div id="status"></div>
 	</div>
 
-	<!-- Fullubicacion -->
-    <div class="intro-header">
-		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s"><img src="img/logoblanco.png" alt="logo"></h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Disfruta el verano con nosotros.</h3>
-			<ul class="list-inline intro-social-buttons">
-				<li><a href="#contact" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Consultar</span></a>
-				</li>
-				<li><a href="#location" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Ubicación</span></a>
-				</li>
-			</ul>
-		</div>
-        <!-- /.container -->
-		<div class="col-xs-12 text-center abcen wow fadeIn">
-			<div class="button_down ">
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#installation"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
-			</div>
-		</div>
-    </div>
+	
 
 	<!-- NavBar-->
-	<nav class="navbar-default" role="navigation">
+	<nav class="navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -86,25 +68,70 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#home"><img class="logo-banner" src='img/logoB.png' /></a>
+				<a href="#home" class="js-smooth-scroll"><img class="logo-banner" src='img/logoblanco.png' /></a>
 			</div>
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="menuItem"><a href="#home">Home</a></li>
-					<li class="menuItem"><a href="#installation">Instalaciones</a></li>
-					<li class="menuItem"><a href="#location">Ubicación</a></li>
-					<li class="menuItem"><a href="#contact">Contacto</a></li>
+					<li class="menuItem"><a href="#home" class="js-smooth-scroll">Home</a></li>
+					<li class="menuItem"><a href="#installation" class="js-smooth-scroll">Instalaciones</a></li>
+					<li class="menuItem"><a href="#location" class="js-smooth-scroll">Ubicación</a></li>
+					<li class="menuItem"><a href="#contact" class="js-smooth-scroll">Contacto</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
+	<!-- Carousel -->
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item">
+	        <img class="css-carousel-img" src="img/1.jpg" data-color="lightblue" alt="First Image">
+	    </div>
+	    <div class="item">
+	        <img class="css-carousel-img" src="img/2.jpg" data-color="firebrick" alt="Second Image">
+	    </div>
+	    <div class="item">
+	        <img class="css-carousel-img" src="img/3.jpg" data-color="violet" alt="Third Image">
+	    </div>
+	    <div class="item">
+	        <img class="css-carousel-img" src="img/4.jpg" data-color="lightgreen" alt="Fourth Image">
+	    </div>
+	    <div class="item">
+	        <img class="css-carousel-img" src="img/5.jpg" data-color="tomato" alt="Fifth Image">
+	    </div>
+	  </div>
+
+	  <!-- Oferta -->
+	  <div class="oferta">
+         <h3>PREVENTA TEMPORADA 2016/17</h3>
+         <ul>
+         	<li>Carpa temporada + 2 cocheras<span>$ 32.000</span></li>
+         	<li>Carpa temporada + 3 cocheras<span>$ 35.000</span></li>
+         </ul>
+         
+         
+         <a href="#contact" class="btn btn-lg mybutton_cyano js-smooth-scroll">Consultar</a>
+         <p>Promoción válida hasta el 31 de Octubre</p>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
 	<!-- Instalaciones -->
-	<div id="installation" class="content-section-b" style="border-top: 0">
+	<div id="installation" class="content-section-a" style="border-top: 0">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-					<h2>Conocé nuestras instalaciones</h2>
+					<h2>Nuestras instalaciones</h2>
 				</div>
 			</div>
 			<div class="row row-installation">
@@ -164,57 +191,7 @@
 		</div>
 	</div>
 
-	<!-- Galería -->
-	<div class="content-section-a">
-        <div class="container">
-		    <div class="row wow bounceInUp" >
-              <div id="owl-demo" class="owl-carousel">
-
-				<a href="img/slide/1.jpg" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.jpg" alt="Owl Image">
-					</div>
-				</a>
-
-				<a href="img/slide/3.jpg" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.jpg" alt="Owl Image">
-					</div>
-				</a>
-
-				<a href="img/slide/2.jpg" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.jpg" alt="Owl Image">
-					</div>
-				</a>
-
-				<a href="img/slide/4.jpg" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/4.jpg" alt="Owl Image">
-					</div>
-				</a>
-
-              </div>
-          </div>
-        </div>
-	</div>
-
-	<!-- Botón -->
-	<div id="button" class="content-section-c ">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center">
-					<div class="mockup-content">
-						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
-
-								<a  class="btn btn-lg mybutton_cyano" href='#contact'>Consultá disponibilidad<button></button></a>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 
 
 	<!-- Ubicación -->
@@ -227,12 +204,13 @@
                 <div class="col-sm-offset-1 col-sm-3 wow fadeInLeftBig"  data-animation-delay="200">
                     <h3 class="section-heading">Ubicación</h3>
 					<ul class="descp lead2">
-						<li><i class="glyphicon glyphicon-map-marker"></i> Ruta 11 4834</li>
+						<li><i class="glyphicon glyphicon-map-marker"></i> Ruta 11, Km 14</li>
 						<li><i class="glyphicon glyphicon-earphone"></i> (0223) 4671119</li>
+						<li><i class="glyphicon glyphicon-question-sign"></i><a href="https://www.google.com.ar/maps/dir/''/la+caseta+playa+mar+del+plata/data=!4m5!4m4!1m0!1m2!1m1!1s0x9584e0d400620e51:0xff5589148a291d22?sa=X&ved=0ahUKEwjVnO-RhPnOAhWChpAKHSg6APMQ9RcIhQEwDw" target="_blank"> Como llegar?</a></li>
 						<li class="redes">
 							<a href="https://www.facebook.com/Playa-La-Caseta-249607525093517/" target="_blank"><i class="fa fa-facebook-square"></i></a>
 							<a href="https://twitter.com/lacasetamardel" target="_blank"><i class="fa fa-twitter-square"></i></a>
-							<a href="https://www.instagram.com/explore/locations/373341630/" target="_blank"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.instagram.com/lacasetaplaya/" target="_blank"><i class="fa fa-instagram"></i></a>
 						</li>
 					</ul>
 				</div>
@@ -318,16 +296,7 @@
 	<script src="js/script.js"></script>
   <script src="js/consulta.js"></script>
 	<!-- StikyMenu -->
-	<script src="js/stickUp.min.js"></script>
-	<script type="text/javascript">
-	  jQuery(function($) {
-		$(document).ready( function() {
-		  $('.navbar-default').stickUp();
-
-		});
-	  });
-
-	</script>
+	
 	<!-- GoogleMap -->
 	<script>
       function initMap() {
@@ -357,6 +326,7 @@
 	<script src="js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
 	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/carousel.js"></script>
 </body>
 
 </html>

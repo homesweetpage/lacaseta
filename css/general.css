@@ -39,6 +39,70 @@ body, html {
     display:none;
 }
 
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) and (max-width: 1120px) {
+	.oferta h3{
+		font-size: 25px;
+	}	
+}
+
+@media (max-width: 991px) {
+	.oferta h3{
+		font-size: 22px;
+	}	
+}
+
+.oferta {
+	color: white;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 38vw;
+	width: 42vw;
+	height: 35vh;
+	background-color: rgba(0,0,0,0.9);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 0.5%, rgba(0, 0, 0, 0.8) 99.5%, rgba(0, 0, 0, 0) 100%);
+}
+
+.oferta h3 {
+	color: white;
+}
+
+.oferta ul {
+	margin-top: 0;
+	padding: 0 !important;
+	text-transform: capitalize;
+}
+
+.oferta a {
+	margin-top: 0;
+}
+
+.oferta span {
+	padding-left: 20px;
+	font-size: 0.9em;
+}
+
+.oferta p {
+	margin-top: 10px;
+	color: #f8f8f8;
+	font-size: 0.7em;
+}
+
+.oferta li:before {
+	font-size: 0.8em;
+	margin-right: 5px;
+}
+
+.css-carousel-img {
+	height: 100%;
+}
+
 .logo-banner {
 	width: 90px;
 	padding-top: 4px;
@@ -217,7 +281,6 @@ background: #33ADDC !important;
 }
 
 .navbar-default {
-	position: relative;
 	min-height: 60px;
 	width: 100%;
 	z-index: 999;
@@ -1087,14 +1150,12 @@ color: #ECEBEB;
 	}
 	#gallery1{display:none}
 
-	.button_down {display:none}
-
 	.row-installation {
 		margin-top: 0px !important;
 	}
 
 	.wrap_title h2{
-		font-size: 36px !important;
+		font-size: 32px !important;
 	}
 
 }

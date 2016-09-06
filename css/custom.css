@@ -401,11 +401,13 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 	}
 
 	footer .powered{
+		font-size: 13px;
 		margin: 4px 0 12px !important;
 		text-align: center !important;
 	}
 
 	footer .copyr{
+		font-size: 13px;
 		margin: 12px 0 4px !important;
 		text-align: center !important;
 	}

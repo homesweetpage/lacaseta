@@ -14,6 +14,12 @@ $(window).load(function() {
 })
 
 $(document).ready(function() {
+		//navbar
+		$(".menuItem a").on('click', function(){
+			$("button.navbar-toggle").click();
+		});
+
+
 		//animated logo
 		$(".navbar-brand").hover(function () {
 			$(this).toggleClass("animated shake");

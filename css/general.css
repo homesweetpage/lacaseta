@@ -85,7 +85,7 @@ body, html {
 	.oferta{
 		width: 100% !important;
 		left: 0px !important;
-		background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%) !important;
+		background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%) !important;
 	}
 }
 
@@ -97,7 +97,7 @@ body, html {
 	left: 38vw;
 	width: 42vw;
 	height: 35vh;
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.8);
 	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 0.5%, rgba(0, 0, 0, 0.8) 99.5%, rgba(0, 0, 0, 0) 100%);
 }
 

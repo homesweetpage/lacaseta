@@ -1,30 +1,32 @@
 /*
 Theme: Flatfy Theme
 Author: Andrea Galanti
-Bootstrap Version 
+Bootstrap Version
 Build: 1.0
 http://www.andreagalanti.it
 */
 
-$(window).load(function() { 
-	//Preloader 
-	$('#status').delay(300).fadeOut(); 
+$(window).load(function() {
+	//Preloader
+	$('#status').delay(300).fadeOut();
 	$('#preloader').delay(300).fadeOut('slow');
 	$('body').delay(550).css({'overflow':'visible'});
 })
 
 $(document).ready(function() {
 		//navbar
-		$(".menuItem a").on('click', function(){
-			$("button.navbar-toggle").click();
-		});
-
+		var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		if(width <= 767){
+			$(".menuItem a").on('click', function(){
+				$("button.navbar-toggle").click();
+			});
+		}
 
 		//animated logo
 		$(".navbar-brand").hover(function () {
 			$(this).toggleClass("animated shake");
 		});
-		
+
 		//animated scroll_arrow
 		$(".img_scroll").hover(function () {
 			$(this).toggleClass("animated infinite bounce blockanimation");
@@ -42,14 +44,14 @@ $(document).ready(function() {
 		setInterval(function(){
 			timerAnimation();
 		}, 5000);
-		
+
 		//Wow Animation DISABLE FOR ANIMATION MOBILE/TABLET
 		wow = new WOW(
 		{
 			mobile: false
 		});
 		wow.init();
-		
+
 		//MagnificPopup
 		$('.image-link').magnificPopup({type:'image'});
 
@@ -83,13 +85,10 @@ $(document).ready(function() {
 					}
 			}
 		});
-		
-		//Subscribe
-		new UIMorphingButton( document.querySelector( '.morph-button' ) );
+
 		// for demo purposes only
-		[].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) { 
+		[].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) {
 			bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
 		} );
 
 });
-
